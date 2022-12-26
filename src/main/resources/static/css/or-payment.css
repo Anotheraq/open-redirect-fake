@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-container {
+    width: 50%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 40vh;
+    border: 1px solid #030303;
+    border-radius: 33px;
+}
+
+button {
+    background: transparent linear-gradient(180deg, #46465A 0%, #131212 100%) 0% 0% no-repeat padding-box;
+    border: 1px solid #000000;
+    border-radius: 19px;
+    width: 50%;
+    color: #C1C1C1;
+    margin: 1em;
+    line-height: 2.5em;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 1em;
+    margin: 1em;
+    width: 50%;
+}
+
+button:hover {
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>PAYMENT</title>
+    <link rel="stylesheet" th:href="@{css/or-payment.css}">
+
+</head>
+<body>
+<div class="container">
+    <div class="payment-container">
+        <form action="/payment" method="POST" class="payment-form">
+            <span th:text="${message}"></span>
+            <input name="cardnumber" type="text" placeholder="Enter your card number(16 digits)">
+            <input name="owner" type="text" placeholder="Enter owner name and surname">
+            <input name="cvv" type="password" placeholder="Enter cvv(3 digits)">
+            <button type="submit">SUBMIT</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
